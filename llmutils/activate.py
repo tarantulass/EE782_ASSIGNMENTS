@@ -3,7 +3,6 @@ import sys
  
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# It's good practice to import custom modules after standard ones.
 from utils.logsetup import get_logger
 import config
 from dotenv import load_dotenv
@@ -13,7 +12,6 @@ import google.generativeai as genai
 # Load environment variables from .env file
 load_dotenv()
 
-# Configure the Gemini API key
 try:
     genai.configure(api_key=os.getenv("GOOGLE_GEMINI_API_KEY"))
 except Exception as e:
@@ -21,7 +19,7 @@ except Exception as e:
     sys.exit(1)
 
 
-def activation(LOG_NAME: str = "activate"):
+def activation(LOG_NAME: str = "activate")->bool:
    
     logger = get_logger(LOG_NAME)
     
@@ -37,17 +35,22 @@ def activation(LOG_NAME: str = "activate"):
         # 'gemini-2.5-flash' is faster and more cost-effective for tasks like this.
         model = genai.GenerativeModel(model_name="gemini-2.5-flash")
 
-        # 3. Send a prompt along with the uploaded audio file to the model.
+        # 3. Sending a prompt along with the uploaded audio file to the model.
         logger.info("Sending file to model for transcription...")
         response = model.generate_content([
-            "Transcribe this audio file.",  # The prompt tells the model what to do.
+            "Transcribe this audio file.",  
             audio_file
         ])
 
         # 4. Extract and print the transcribed text.
         text = response.text
         logger.debug(f"Transcription result: {text}")
-        print(text)
+        if config.ACTIVATION_PHRASE.lower() in text.lower():
+            logger.info("Activation phrase detected!")
+            return True
+        else:
+            logger.info("Activation phrase not detected.")
+            return False
 
     except FileNotFoundError:
         logger.error(f"Audio file not found at path: {config.AUDIO_DIR}")
