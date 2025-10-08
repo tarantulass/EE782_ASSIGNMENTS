@@ -8,3 +8,7 @@ if __name__ == "__main__":
     recordAudio()
     status = activation()
     notify_cam(status)
+    unknownface = True
+    while unknownface:
+    
+    
