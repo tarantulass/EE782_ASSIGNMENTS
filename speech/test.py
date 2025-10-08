@@ -4,6 +4,7 @@ import numpy as np
 import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 import config
+from pynput import keyboard
 
 def recordAudio():
 
