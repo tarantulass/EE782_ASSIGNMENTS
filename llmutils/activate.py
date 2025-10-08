@@ -42,7 +42,6 @@ def activation(LOG_NAME: str = "activate")->bool:
             audio_file
         ])
 
-        # 4. Extract and print the transcribed text.
         text = response.text
         logger.debug(f"Transcription result: {text}")
         if config.ACTIVATION_PHRASE.lower() in text.lower():

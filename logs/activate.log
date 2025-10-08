@@ -5,3 +5,13 @@
 2025-10-08 09:24:32 [INFO] Uploading audio file: ./speech/input.wav
 2025-10-08 09:24:35 [INFO] Successfully uploaded file: input.wav
 2025-10-08 09:24:35 [INFO] Sending file to model for transcription...
+2025-10-08 11:25:34 [INFO] Uploading audio file: ./speech/input.wav
+2025-10-08 11:25:37 [INFO] Successfully uploaded file: input.wav
+2025-10-08 11:25:37 [INFO] Sending file to model for transcription...
+2025-10-08 11:25:40 [DEBUG] Transcription result: Hi, my name is Jeevith. Please guard my room.
+2025-10-08 11:25:40 [INFO] Activation phrase not detected.
+2025-10-08 11:26:55 [INFO] Uploading audio file: ./speech/input.wav
+2025-10-08 11:26:59 [INFO] Successfully uploaded file: input.wav
+2025-10-08 11:26:59 [INFO] Sending file to model for transcription...
+2025-10-08 11:27:02 [DEBUG] Transcription result: Guard my room, please. Bye.
+2025-10-08 11:27:02 [INFO] Activation phrase detected!

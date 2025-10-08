@@ -1,7 +1,7 @@
 import logging
 import os
 
-def get_logger(name="AI_GUARD"):
+def get_logger(name: str):
     # make logs directory
     os.makedirs("logs", exist_ok=True)
     log_file = os.path.join(
@@ -10,7 +10,7 @@ def get_logger(name="AI_GUARD"):
 
     # configure logger
     logger = logging.getLogger(name)
-    logger.setLevel(logging.INFO)
+    logger.setLevel(logging.DEBUG)
 
     # avoid duplicate handlers
     if not logger.handlers:

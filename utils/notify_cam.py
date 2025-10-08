@@ -5,7 +5,7 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 import cv2
-
+import config
 
 def notify_cam(activation: bool, LOG_NAME: str = "notify_cam"):
     logger = get_logger(LOG_NAME)
@@ -33,8 +33,7 @@ def notify_cam(activation: bool, LOG_NAME: str = "notify_cam"):
         ret, frame = cap.read()
         if ret:
             logger.info("Webcam activated successfully. Captured one frame for now.")
-            # Optional: save the first frame
-            cv2.imwrite("first_frame.jpg", frame)
+            cv2.imwrite(config.WEBCAM_DIR, frame)
 
     else:
         logger.info("No activation phrase detected. Camera remains idle.")
