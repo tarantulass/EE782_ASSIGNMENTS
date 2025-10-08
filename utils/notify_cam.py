@@ -31,9 +31,10 @@ def notify_cam(activation: bool, LOG_NAME: str = "notify_cam"):
             return
 
         ret, frame = cap.read()
+        frame_path = os.path.join(config.WEBCAM_DIR, "first_frame.jpg")  
         if ret:
             logger.info("Webcam activated successfully. Captured one frame for now.")
-            cv2.imwrite(config.WEBCAM_DIR, frame)
+            cv2.imwrite(frame_path, frame)
 
     else:
         logger.info("No activation phrase detected. Camera remains idle.")

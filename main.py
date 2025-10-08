@@ -10,5 +10,5 @@ if __name__ == "__main__":
     notify_cam(status)
     unknownface = True
     while unknownface:
-    
+        pass
     
