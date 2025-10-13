@@ -5,3 +5,15 @@
 2025-10-13 22:36:32 [WARNING] Intruder detected!
 2025-10-13 22:37:26 [INFO] Governer returned level: None
 2025-10-13 22:37:26 [WARNING] Intruder detected!
+2025-10-13 22:42:56 [WARNING] Intruder detected!
+2025-10-13 22:43:38 [INFO] Governer returned level: 1
+2025-10-13 22:43:38 [WARNING] Intruder detected!
+2025-10-13 22:44:20 [INFO] Governer returned level: 1
+2025-10-13 22:44:20 [WARNING] Intruder detected!
+2025-10-13 22:45:00 [INFO] Governer returned level: Based on the escalation levels:
+
+1. The first interaction with Arbaaz indicates a level of 1 (politely requesting identification and purpose).
+2. The second interaction with Abbas shows a level of 2 (repeatedly asking for details without complying to leave).
+3. The third interaction with Maibash suggests a level of 1, as he's also asking for identification but is being cooperative.
+4. Lastly, the shutdown from "Maibash" indicates an escalation to level 3 (misbehavior and threat).
+2025-10-13 22:45:00 [WARNING] Intruder detected!

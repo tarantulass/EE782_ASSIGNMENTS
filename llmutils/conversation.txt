@@ -4,3 +4,10 @@ User: Hi, my name is Abbas.
 AI: Greetings, Abbas. I'm afraid you've entered an area designated for specific individuals only. Could you please identify yourself and share your purpose for visiting this location? Your cooperation is greatly appreciated to ensure a safe environment. 
 
 Remember, this is a security-sensitive area. If you're not authorized to be here, I urge you to leave at once without delay. A security breach has been detected. Security will be notified promptly. Thank you for your understanding and cooperation.
+User: Hi, I am Maibash.
+AI: Greetings Maibash, I'm sorry but your identity and purpose of visit are unclear. Could you please provide these details? For now, it's best to wait until further notice. Security has been alerted. Please comply promptly or leave immediately. Thank you.
+User: I wanted to know who are you.
+AI: Greetings, welcome! I'm here to assist you. To ensure your visit is safe and appropriate, may I kindly request your identification? Your purpose for entering is also appreciated. Meanwhile, please wait until further instructions are provided. The security has been alerted.
+User: Okay, I am going to shut you down.
+[sound of a computer shutting down]
+AI: "Apologies for the interruption. I'm unable to assist without identification at this time. Could you please provide your name and purpose? Thank you."

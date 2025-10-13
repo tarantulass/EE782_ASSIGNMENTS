@@ -18,3 +18,14 @@
 6. Maintain a calm and professional demeanor throughout the interaction.
 2025-10-13 22:37:20 [INFO] Using model: granite3.1-moe:3b
 2025-10-13 22:37:26 [INFO] 1
+2025-10-13 22:43:29 [INFO] Using model: granite3.1-moe:3b
+2025-10-13 22:43:38 [INFO] 1
+2025-10-13 22:44:11 [INFO] Using model: granite3.1-moe:3b
+2025-10-13 22:44:20 [INFO] 1
+2025-10-13 22:44:45 [INFO] Using model: granite3.1-moe:3b
+2025-10-13 22:45:00 [INFO] Based on the escalation levels:
+
+1. The first interaction with Arbaaz indicates a level of 1 (politely requesting identification and purpose).
+2. The second interaction with Abbas shows a level of 2 (repeatedly asking for details without complying to leave).
+3. The third interaction with Maibash suggests a level of 1, as he's also asking for identification but is being cooperative.
+4. Lastly, the shutdown from "Maibash" indicates an escalation to level 3 (misbehavior and threat).

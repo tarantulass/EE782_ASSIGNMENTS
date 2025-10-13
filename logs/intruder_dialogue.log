@@ -43,3 +43,19 @@ Remember, this is a security-sensitive area. If you're not authorized to be here
 2025-10-13 22:36:54 [INFO] Reply: Greetings, Abbas. I'm afraid you've entered an area designated for specific individuals only. Could you please identify yourself and share your purpose for visiting this location? Your cooperation is greatly appreciated to ensure a safe environment. 
 
 Remember, this is a security-sensitive area. If you're not authorized to be here, I urge you to leave at once without delay. A security breach has been detected. Security will be notified promptly. Thank you for your understanding and cooperation.
+2025-10-13 22:43:03 [INFO] Successfully uploaded file: input.wav
+2025-10-13 22:43:03 [INFO] Sending file to model for transcription...
+2025-10-13 22:43:06 [DEBUG] Transcription result: Hi, I am Maibash.
+2025-10-13 22:43:16 [INFO] Greetings Maibash, I'm sorry but your identity and purpose of visit are unclear. Could you please provide these details? For now, it's best to wait until further notice. Security has been alerted. Please comply promptly or leave immediately. Thank you.
+2025-10-13 22:43:16 [INFO] Reply: Greetings Maibash, I'm sorry but your identity and purpose of visit are unclear. Could you please provide these details? For now, it's best to wait until further notice. Security has been alerted. Please comply promptly or leave immediately. Thank you.
+2025-10-13 22:43:47 [INFO] Successfully uploaded file: input.wav
+2025-10-13 22:43:47 [INFO] Sending file to model for transcription...
+2025-10-13 22:43:50 [DEBUG] Transcription result: I wanted to know who are you.
+2025-10-13 22:43:56 [INFO] Greetings, welcome! I'm here to assist you. To ensure your visit is safe and appropriate, may I kindly request your identification? Your purpose for entering is also appreciated. Meanwhile, please wait until further instructions are provided. The security has been alerted.
+2025-10-13 22:43:56 [INFO] Reply: Greetings, welcome! I'm here to assist you. To ensure your visit is safe and appropriate, may I kindly request your identification? Your purpose for entering is also appreciated. Meanwhile, please wait until further instructions are provided. The security has been alerted.
+2025-10-13 22:44:28 [INFO] Successfully uploaded file: input.wav
+2025-10-13 22:44:28 [INFO] Sending file to model for transcription...
+2025-10-13 22:44:31 [DEBUG] Transcription result: Okay, I am going to shut you down.
+[sound of a computer shutting down]
+2025-10-13 22:44:37 [INFO] "Apologies for the interruption. I'm unable to assist without identification at this time. Could you please provide your name and purpose? Thank you."
+2025-10-13 22:44:37 [INFO] Reply: "Apologies for the interruption. I'm unable to assist without identification at this time. Could you please provide your name and purpose? Thank you."
