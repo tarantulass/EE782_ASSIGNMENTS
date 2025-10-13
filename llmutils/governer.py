@@ -15,9 +15,7 @@ def instructiongenerator()->str:
                 'role': 'user',
                 'content': 'Why is the sky blue?',
             },
-            ],
-            max_tokens=100
-            )
+            ])
         logger.info(response['message']['content'])
 
     except Exception as e:

@@ -51,6 +51,10 @@ def intruder_dialogue(level:int, text:str=None):
     try:
         response: ChatResponse = chat(model=config.MODEL_NAME, messages=[
             {
+                'role': 'system',
+                'content': 'You are an AI guard in a hostel room.',
+            },
+            {
                 'role': 'user',
                 'content': prompt,
             },

@@ -16,3 +16,25 @@
 2025-10-13 20:27:59 [INFO] Captured image saved to /tmp/tmp8pp7uub8.png
 2025-10-13 20:27:59 [ERROR] Error encountered: Passed path /facerecognition/DBface/registered does not exist!
 2025-10-13 20:27:59 [INFO] Face recognition result: False
+2025-10-13 20:34:01 [INFO] Press 'q' to capture and process the frame.
+2025-10-13 20:34:04 [INFO] Captured image saved to /tmp/tmp_fdbjpnd.png
+2025-10-13 20:34:07 [ERROR] Error encountered: 'list' object has no attribute 'head'
+2025-10-13 20:34:07 [INFO] Face recognition result: False
+2025-10-13 20:36:48 [INFO] Press 'q' to capture and process the frame.
+2025-10-13 20:36:51 [INFO] Captured image saved to /tmp/tmp458i5jam.png
+2025-10-13 20:36:53 [INFO] Found 1 candidate matches
+2025-10-13 20:36:53 [INFO] Face recognition result: False
+2025-10-13 20:37:50 [INFO] Press 'q' to capture and process the frame.
+2025-10-13 20:37:53 [INFO] Captured image saved to /tmp/tmpncnxocpr.png
+2025-10-13 20:37:55 [INFO] Found 1 candidate matches
+2025-10-13 20:37:55 [INFO] Face recognition result: False
+2025-10-13 20:41:07 [INFO] Press 'q' to capture and process the frame.
+2025-10-13 20:41:10 [INFO] Captured image saved to /tmp/tmpzl7bhriu.png
+2025-10-13 20:41:12 [INFO] Found 1 candidate matches
+2025-10-13 20:41:12 [INFO] Face recognition result: False
+2025-10-13 20:42:01 [INFO] Press 'q' to capture and recognize.
+2025-10-13 20:42:03 [INFO] Captured image saved to /tmp/tmp2ouwcgwu.png
+2025-10-13 20:42:05 [ERROR] Error verifying ds_model_vggface_detector_opencv_aligned_normalization_base_expand_0.pkl: Exception while processing img2_path
+2025-10-13 20:42:05 [INFO] Comparing with Hardik1.png: distance 0.79858, verified False
+2025-10-13 20:42:07 [INFO] Comparing with Jeet1.jpeg: distance 0.440079, verified True
+2025-10-13 20:42:07 [INFO] Face recognition result: True
