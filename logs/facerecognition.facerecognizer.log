@@ -4,3 +4,4 @@
 2025-10-13 22:22:52 [INFO] Comparing with Hardik1.png: distance 0.857231, verified False
 2025-10-13 22:22:54 [INFO] Comparing with Jeet1.jpeg: distance 0.82813, verified False
 2025-10-13 22:22:54 [INFO] Face recognition result: False
+2025-10-13 23:05:39 [ERROR] Cannot access webcam.
