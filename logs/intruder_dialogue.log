@@ -1,0 +1,6 @@
+2025-10-13 16:50:57 [INFO] Successfully uploaded file: input.wav
+2025-10-13 16:50:57 [INFO] Sending file to model for transcription...
+2025-10-13 16:51:00 [ERROR] Error in ollama API: Client.chat() got an unexpected keyword argument 'max_tokens'
+2025-10-13 16:51:34 [INFO] Successfully uploaded file: input.wav
+2025-10-13 16:51:34 [INFO] Sending file to model for transcription...
+2025-10-13 16:51:37 [ERROR] Error in ollama API: model requires more system memory (2.3 GiB) than is available (2.2 GiB) (status code: 500)
