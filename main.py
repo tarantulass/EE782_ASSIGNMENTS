@@ -20,10 +20,13 @@ if __name__ == "__main__":
     with open(config.TEXT_FILE, 'w') as f:
         f.write("")
 
+    level = 1
     while not knownface:
         logger.warning("Intruder detected!")
-        intruder_dialogue(level=1)
+
+        intruder_dialogue(int(level))
         level = instructiongenerator(config.TEXT_FILE)
+        logger.info(f"Governer returned level: {level}")
         if level == 3:
             break   
 
