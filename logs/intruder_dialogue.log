@@ -4,3 +4,7 @@
 2025-10-13 16:51:34 [INFO] Successfully uploaded file: input.wav
 2025-10-13 16:51:34 [INFO] Sending file to model for transcription...
 2025-10-13 16:51:37 [ERROR] Error in ollama API: model requires more system memory (2.3 GiB) than is available (2.2 GiB) (status code: 500)
+2025-10-13 16:59:14 [INFO] Successfully uploaded file: input.wav
+2025-10-13 16:59:14 [INFO] Sending file to model for transcription...
+2025-10-13 16:59:26 [INFO] Apologies for the interruption, but I'm unable to assist with visitors unless they provide proper identification and clarify their purpose of visit. Kindly wait until you're notified or return after securing your identity. Security has been alerted. Please cooperate by leaving immediately as a security breach has been detected.
+2025-10-13 16:59:26 [INFO] Reply: Apologies for the interruption, but I'm unable to assist with visitors unless they provide proper identification and clarify their purpose of visit. Kindly wait until you're notified or return after securing your identity. Security has been alerted. Please cooperate by leaving immediately as a security breach has been detected.

@@ -44,7 +44,8 @@ def intruder_dialogue(level:int, text:str=None):
     ])
 
     text = response.text
-
+    logger.debug(f"Transcription result: {text}")
+    
     prompt = buildintruderprompt(level, text)
 
     try:

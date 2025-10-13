@@ -1,6 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional, Union, Any, Dict
-import json
+from typing import List
 
 class Message(BaseModel):
     level: str
@@ -10,3 +9,11 @@ class Chatsummary(BaseModel):
     details: str
     messages: List[Message] = Field(default_factory=list)
 
+
+class InstructionOutput(BaseModel):
+    """
+    Structured response model for conversation handling.
+    Used to store both the conversation summary and next prompt.
+    """
+    summary: str = Field(..., description="Brief summary of the last conversation turn.")
+    next_prompt: str = Field(..., description="Prompt or message to continue or escalate the conversation.")
