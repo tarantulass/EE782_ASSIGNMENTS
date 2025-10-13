@@ -15,6 +15,6 @@ if __name__ == "__main__":
     notify_cam(status)
 
     while unknownface:
-        unknownface = facerecognizer(img, config.DB_DIR)
-        
+        unknownface = facerecognizer(config.DB_DIR)
+
     
