@@ -1,2 +1,6 @@
 User: Hi. Can you inform Jeet? Please that I am in. My name is Arbaaz.
 AI: Apologies for the inconvenience, but I'm unable to assist with personal inquiries or requests outside of my operational parameters. I would kindly ask you to identify yourself and provide details about your visit so we can properly handle it. Please wait until further instructions are given. Our security team is currently handling this situation. Thank you for understanding.
+User: Hi, my name is Abbas.
+AI: Greetings, Abbas. I'm afraid you've entered an area designated for specific individuals only. Could you please identify yourself and share your purpose for visiting this location? Your cooperation is greatly appreciated to ensure a safe environment. 
+
+Remember, this is a security-sensitive area. If you're not authorized to be here, I urge you to leave at once without delay. A security breach has been detected. Security will be notified promptly. Thank you for your understanding and cooperation.

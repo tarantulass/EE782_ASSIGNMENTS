@@ -21,10 +21,12 @@ def instructiongenerator(file: str)->str:
             },
             ])
         logger.info(response['message']['content'])
+        return response.message.content
 
     except Exception as e:
         logger.error(f"Error in ollama API: {e}")
         sys.exit(1)
+    
     
 if __name__ == "__main__":
     instructiongenerator()
