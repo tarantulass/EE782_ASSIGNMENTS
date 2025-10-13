@@ -6,7 +6,7 @@ import config
 from utils.logsetup import get_logger
 
 def summarygenerator()->str:
-    logger = get_logger("governer")
+    logger = get_logger("telegramchat")
     logger.info(f"Using model: {config.MODEL_NAME}")
 
     try:
@@ -15,9 +15,7 @@ def summarygenerator()->str:
                 'role': 'user',
                 'content': 'Why is the sky blue?',
             },
-            ],
-            max_tokens=100
-            )
+            ])
         logger.info(response['message']['content'])
 
     except Exception as e:

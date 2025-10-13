@@ -1,12 +1,11 @@
 import pyttsx3
+from ollama import chat
+from ollama import ChatResponse
+from genai import genai
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import config
-
-from dotenv import load_dotenv
-load_dotenv()
-import google.generativeai as genai
-
 from speech.test import recordAudio
 
 from utils.logsetup import get_logger
@@ -17,13 +16,6 @@ tts = pyttsx3.init()
 def intruder_dialogue(level:int, text:str=None):
 
     logger = get_logger("intruder_dialogue")
-
-
-    try:
-        genai.configure(api_key=os.getenv("GOOGLE_GEMINI_API_KEY"))
-    except Exception as e:
-        logger.error(f"Error configuring Gemini API: {e}")
-        sys.exit(1)
 
     recordAudio()
     audio_file = genai.upload_file(path=config.AUDIO_DIR)
@@ -43,8 +35,23 @@ def intruder_dialogue(level:int, text:str=None):
 
     prompt = buildintruderprompt(level, text)
 
+    try:
+        response: ChatResponse = chat(model=config.MODEL_NAME, messages=[
+            {
+                'role': 'user',
+                'content': prompt,
+            },
+            ],
+            max_tokens=100
+            )
+        logger.info(response['message']['content'])
 
-    output = response.content
+    except Exception as e:
+        logger.error(f"Error in ollama API: {e}")
+        sys.exit(1)
+
+
+    output = response.message.content
     logger.info(f"Reply: {output}")
 
     tts.say(output)
