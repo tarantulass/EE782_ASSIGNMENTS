@@ -7,5 +7,6 @@ AUDIO_DIR = os.path.join(os.path.dirname(__file__), "speech", "input.wav")
 ACTIVATION_PHRASE = "guard my room"
 WEBCAM_DIR = os.path.join(os.path.dirname(__file__), "facerecognition", "frames")   
 DB_DIR = os.path.join(os.path.dirname(__file__), "facerecognition", "DBface", "registered")
+TEXT_FILE = os.path.join(os.path.dirname(__file__), "llmutils", "conversation.txt")
 
 MODEL_NAME = "granite3.1-moe:3b"

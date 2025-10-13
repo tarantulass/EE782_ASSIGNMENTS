@@ -66,6 +66,9 @@ def intruder_dialogue(level:int, text:str=None):
     output = response.message.content
     logger.info(f"Reply: {output}")
 
+    with open(config.TEXT_FILE, 'a') as f:
+        f.write(f"User: {text}\nAI: {output}\n")
+
     tts = pyttsx3.init()
     try:
         tts.say(output)

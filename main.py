@@ -6,6 +6,9 @@ from utils.notify_cam import notify_cam
 from facerecognition import facerecognizer
 import config
 from utils.logsetup import get_logger
+from llmutils.conversation import intruder_dialogue
+from llmutils.governer import instructiongenerator
+from llmutils.telegramchat import summarygenerator
 
 if __name__ == "__main__":
     logger = get_logger("main")
@@ -13,8 +16,16 @@ if __name__ == "__main__":
     recordAudio()
     status = activation()
     notify_cam(status)
+    knownface = facerecognizer(config.DB_DIR)
+    with open(config.TEXT_FILE, 'w') as f:
+        f.write("")
 
-    while unknownface:
-        unknownface = facerecognizer(config.DB_DIR)
+    while not knownface:
+        logger.warning("Intruder detected!")
+        intruder_dialogue(level=1)
+        level = instructiongenerator(config.TEXT_FILE)
+        if level == 3:
+            break   
 
-    
+    if config.TEXT_FILE:    
+        summarygenerator()
