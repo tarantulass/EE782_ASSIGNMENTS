@@ -25,3 +25,7 @@
 2025-10-13 21:24:16 [DEBUG] Transcription result: (No audio)
 2025-10-13 21:24:20 [INFO] "Good day, sir/madam. I'm afraid you've entered an unrecognized area. May I kindly ask for your identification and clarify your purpose of visiting this location? Please stand by while we notify the user and alert our security team immediately."
 2025-10-13 21:24:20 [INFO] Reply: "Good day, sir/madam. I'm afraid you've entered an unrecognized area. May I kindly ask for your identification and clarify your purpose of visiting this location? Please stand by while we notify the user and alert our security team immediately."
+2025-10-13 22:23:10 [INFO] Successfully uploaded file: input.wav
+2025-10-13 22:23:10 [INFO] Sending file to model for transcription...
+2025-10-13 22:23:13 [DEBUG] Transcription result: Uh, Q. Okay, hi. Please, uh, let me in.
+2025-10-13 22:23:13 [ERROR] Error in ollama API: model requires more system memory (2.3 GiB) than is available (1.4 GiB) (status code: 500)

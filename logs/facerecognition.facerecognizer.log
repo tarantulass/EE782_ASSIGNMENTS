@@ -1,0 +1,6 @@
+2025-10-13 22:22:39 [INFO] Press 'q' to capture and recognize.
+2025-10-13 22:22:49 [INFO] Captured image saved to /tmp/tmpbuljzm9u.png
+2025-10-13 22:22:51 [ERROR] Error verifying ds_model_vggface_detector_opencv_aligned_normalization_base_expand_0.pkl: Exception while processing img2_path
+2025-10-13 22:22:52 [INFO] Comparing with Hardik1.png: distance 0.857231, verified False
+2025-10-13 22:22:54 [INFO] Comparing with Jeet1.jpeg: distance 0.82813, verified False
+2025-10-13 22:22:54 [INFO] Face recognition result: False
