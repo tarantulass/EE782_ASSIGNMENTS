@@ -1,5 +1,6 @@
 from deepface import DeepFace
-import cv2
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from utils.logsetup import get_logger
 
 
@@ -15,4 +16,4 @@ def facerecognition(image: str, db_dir: str) -> bool:
     return False
 
 if __name__ == "__main__":
-    facerecognition("img1.jpg", "./facerecognition/DBface")  
+    facerecognition("images.webp", "./facerecognition/DBface")  
