@@ -9,3 +9,4 @@ class Message(BaseModel):
 class Chatsummary(BaseModel):
     details: str
     messages: List[Message] = Field(default_factory=list)
+

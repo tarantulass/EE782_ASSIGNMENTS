@@ -1,0 +1,10 @@
+2025-10-13 15:57:15 [INFO] Using model: granite3.1-moe:1b
+2025-10-13 15:57:15 [ERROR] Error in ollama API: model 'granite3.1-moe:1b' not found (status code: 404)
+2025-10-13 15:58:26 [INFO] Using model: granite3.1-moe-3b
+2025-10-13 15:58:26 [ERROR] Error in ollama API: model 'granite3.1-moe-3b' not found (status code: 404)
+2025-10-13 15:58:33 [INFO] Using model: granite3.1-moe:3b
+2025-10-13 15:58:37 [INFO] The sky appears blue due to a process called Rayleigh scattering. When the sun's light reaches Earth's atmosphere, it collides with molecules and small particles in the air. Blue light has a shorter wavelength and higher energy, so it collides with other molecules more frequently than red light does. This leads to the blue light getting scattered in all directions, making the sky appear blue. During sunrise and sunset, however, the path of the sun's light is longer, causing the blue light to scatter out of our line of sight, resulting in a reddish glow.
+2025-10-13 16:03:09 [INFO] Using model: granite3.1-moe:3b
+2025-10-13 16:03:09 [ERROR] Error in ollama API: Client.chat() got an unexpected keyword argument 'max_tokens'
+2025-10-13 16:03:18 [INFO] Using model: granite3.1-moe:3b
+2025-10-13 16:03:18 [ERROR] Error in ollama API: Client.chat() got an unexpected keyword argument 'max_tokens'

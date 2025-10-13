@@ -7,4 +7,4 @@ ACTIVATION_PHRASE = "guard my room"
 WEBCAM_DIR = "./face_recognition/frames"
 SILENT_LIMIT = 3
 
-MODEL_NAME = "TheBloke/WizardLM-3B-HF"
+MODEL_NAME = "granite3.1-moe:3b"
