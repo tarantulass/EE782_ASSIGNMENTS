@@ -4,7 +4,6 @@ import os,sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import config
 from utils.logsetup import get_logger
-import json
 import requests
 from dotenv import load_dotenv
 load_dotenv()
