@@ -4,3 +4,15 @@
 2025-10-13 13:20:02 [ERROR] Error encountered: Length of values (8) does not match length of index (9)
 2025-10-13 15:25:43 [ERROR] Error encountered: Confirm that test1.webp exists
 2025-10-13 15:25:55 [ERROR] Error encountered: 'list' object has no attribute 'head'
+2025-10-13 20:25:34 [INFO] Press 'q' to capture and process the frame.
+2025-10-13 20:25:46 [INFO] Captured image saved to /tmp/tmp5hoh8qeu.png
+2025-10-13 20:25:46 [ERROR] Error encountered: Passed path ./face_recognition/DBface/registered does not exist!
+2025-10-13 20:25:46 [INFO] Face recognition result: False
+2025-10-13 20:27:25 [INFO] Press 'q' to capture and process the frame.
+2025-10-13 20:27:31 [INFO] Captured image saved to /tmp/tmp0js6t1ck.png
+2025-10-13 20:27:31 [ERROR] Error encountered: Passed path /face_recognition/DBface/registered does not exist!
+2025-10-13 20:27:31 [INFO] Face recognition result: False
+2025-10-13 20:27:57 [INFO] Press 'q' to capture and process the frame.
+2025-10-13 20:27:59 [INFO] Captured image saved to /tmp/tmp8pp7uub8.png
+2025-10-13 20:27:59 [ERROR] Error encountered: Passed path /facerecognition/DBface/registered does not exist!
+2025-10-13 20:27:59 [INFO] Face recognition result: False

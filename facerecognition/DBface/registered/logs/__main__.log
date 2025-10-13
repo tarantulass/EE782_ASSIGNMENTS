@@ -1,0 +1,8 @@
+2025-10-13 20:29:11 [INFO] Press 'q' to capture and process the frame.
+2025-10-13 20:29:13 [INFO] Captured image saved to /tmp/tmpflri5c3g.png
+2025-10-13 20:29:13 [ERROR] Error encountered: Passed path ./facerecognition/DBface/registered does not exist!
+2025-10-13 20:29:13 [INFO] Face recognition result: False
+2025-10-13 20:30:31 [INFO] Press 'q' to capture and process the frame.
+2025-10-13 20:30:33 [INFO] Captured image saved to /tmp/tmpcdxzz8tb.png
+2025-10-13 20:31:00 [ERROR] Error encountered: 'list' object has no attribute 'head'
+2025-10-13 20:31:00 [INFO] Face recognition result: False
