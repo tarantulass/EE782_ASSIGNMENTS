@@ -1,9 +1,11 @@
 ## Instructions to run the code
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Install the required dependencies using pip:
+3. Install the required dependencies using pip: deepface, pyttsx3
 4. Set up environment variables for TELEGRAM_BOT_TOKEN and CHAT_ID in a .env file.
-5. Run the main.py file to start the application.
+5. Download the quantized "granite3.1-moe:3b" model from ollama
+6. Generate the gemini api key from ai-studio and add it in .env file. (create a .env as it has api keys)
+7. Run the main.py file to start the application.
 
 ## Problems and solutions
 1. Face recognition using face_recognition was extremely problematic due to cmake and dlib dependecies conflict. Switched to deepface for better accuracy and simpler implmentation - further optimized by reducing the dimensions, using other models and .find function instead.
