@@ -9,8 +9,6 @@ from speech.test import recordAudio
 
 from utils.logsetup import get_logger
 from prompts.buildintruderprompt import buildintruderprompt
-tts = pyttsx3.init()
-
 
 
 from dotenv import load_dotenv
@@ -33,7 +31,6 @@ def intruder_dialogue(level:int, text:str=None):
     audio_file = genai.upload_file(path=config.AUDIO_DIR)
     logger.info(f"Successfully uploaded file: {audio_file.display_name}")
 
-    # 2. Create an instance of the Gemini 2.5 Model.
     model = genai.GenerativeModel(model_name="gemini-2.5-flash")
 
     # 3. Sending a prompt along with the uploaded audio file to the model.
@@ -69,8 +66,13 @@ def intruder_dialogue(level:int, text:str=None):
     output = response.message.content
     logger.info(f"Reply: {output}")
 
-    tts.say(output)
-    tts.runAndWait()
+    tts = pyttsx3.init()
+    try:
+        tts.say(output)
+        tts.runAndWait()
+    finally:
+        tts.stop()
+        del tts
 
     return output
 

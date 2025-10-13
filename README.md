@@ -9,7 +9,8 @@
 1. Face recognition using face_recognition was extremely problematic due to cmake and dlib dependecies conflict. Switched to deepface for better accuracy and simpler implmentation - further optimized by reducing the dimensions, using other models and .find function instead.
 2. Pinecone integration for vector database was complex and time-consuming initially, can be easily extended for images as the code is modular.
 3. LLM model selection was challenging due to the variety of models available. Chose granite3.1-moe:3b based on Openllm leaderboard.
-4. 
+4. `pyttsx3` throws `AttributeError: 'NoneType' object has no attribute 'suppress'` at program exit, and sometimes speech doesn’t play. Actually the engine’s internal driver is cleaned up too late or improperly, and `runAndWait()` may not complete before exit. Solution: Call `tts.stop()` and `del tts` after speaking, or initialize the engine locally to ensure proper cleanup and reliable speech.
+
 
 ## References 
 
