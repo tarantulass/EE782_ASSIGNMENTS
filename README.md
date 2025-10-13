@@ -1,5 +1,5 @@
 ## Instructions to run the code
-1. Clone the repository to your local machine.
+1. Clone the master branch of the repository to your local machine **NOT THE MAIN BRANCH**.
 2. Navigate to the project directory.
 3. Install the required dependencies using pip: deepface, pyttsx3
 4. Set up environment variables for TELEGRAM_BOT_TOKEN and CHAT_ID in a .env file.
