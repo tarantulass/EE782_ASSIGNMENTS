@@ -25,3 +25,8 @@
 2025-10-13 22:07:59 [INFO] Sending file to model for transcription...
 2025-10-13 22:08:02 [DEBUG] Transcription result: Please guard my room.
 2025-10-13 22:08:02 [INFO] Activation phrase detected!
+2025-10-13 22:20:17 [INFO] Uploading audio file: /home/bocunopiko/SEM7/EE782/A2/speech/input.wav
+2025-10-13 22:20:21 [INFO] Successfully uploaded file: input.wav
+2025-10-13 22:20:21 [INFO] Sending file to model for transcription...
+2025-10-13 22:20:24 [DEBUG] Transcription result: Hi, my name is Jeet. Please guard my room.
+2025-10-13 22:20:24 [INFO] Activation phrase detected!

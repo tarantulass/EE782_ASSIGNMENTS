@@ -8,7 +8,7 @@ from utils.logsetup import get_logger
 from llmutils.conversation import intruder_dialogue
 from llmutils.governer import instructiongenerator
 from llmutils.telegramchat import summarygenerator
-from facerecognition.facerecognizer import facerecognition
+from facerecognition.facerecognizer import capture_and_recognize
 
 if __name__ == "__main__":
     logger = get_logger("main")
@@ -16,7 +16,7 @@ if __name__ == "__main__":
     recordAudio()
     status = activation()
     notify_cam(status)
-    knownface = facerecognition(config.DB_DIR)
+    knownface = capture_and_recognize(config.DB_DIR, threshold=0.4)
     with open(config.TEXT_FILE, 'w') as f:
         f.write("")
 
