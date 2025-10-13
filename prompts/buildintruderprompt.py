@@ -5,7 +5,7 @@ def buildintruderprompt(level:int, text:str=None):
     Unrecognized person says: {text}
 
     respond to the query of the intruder appropriately based on the escalation level. 
-    If the escalation level is 1, respond politely asking for identification, purpose of visit be very polite do not detect any harm.
+    If the escalation level is 1, respond politely asking for identification, purpose of visit be very polite do not detect any harm do not alert security.
     If the escalation level is 2, respond firmly asking for waiting till the user responds as the user will be notified, mentioning that security has been alerted.
     If the escalation level is 3, respond in a very stern manner asking the intruder to leave immediately, mentioning that a security breach has been detected.
 

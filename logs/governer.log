@@ -8,3 +8,11 @@
 2025-10-13 16:03:09 [ERROR] Error in ollama API: Client.chat() got an unexpected keyword argument 'max_tokens'
 2025-10-13 16:03:18 [INFO] Using model: granite3.1-moe:3b
 2025-10-13 16:03:18 [ERROR] Error in ollama API: Client.chat() got an unexpected keyword argument 'max_tokens'
+2025-10-13 22:27:29 [INFO] Using model: granite3.1-moe:3b
+2025-10-13 22:27:38 [INFO] Instructions:
+1. Acknowledge receipt of the message from Arbaaz.
+2. Inform that your visit is for personal reasons and confirm your identity as Arbaaz.
+3. Thank him for his patience while the security team handles this situation.
+4. Assure that steps are being taken to address his query about Jeet's status.
+5. Remind Arbaaz to wait until further instructions are provided by our security team.
+6. Maintain a calm and professional demeanor throughout the interaction.

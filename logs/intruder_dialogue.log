@@ -29,3 +29,8 @@
 2025-10-13 22:23:10 [INFO] Sending file to model for transcription...
 2025-10-13 22:23:13 [DEBUG] Transcription result: Uh, Q. Okay, hi. Please, uh, let me in.
 2025-10-13 22:23:13 [ERROR] Error in ollama API: model requires more system memory (2.3 GiB) than is available (1.4 GiB) (status code: 500)
+2025-10-13 22:26:57 [INFO] Successfully uploaded file: input.wav
+2025-10-13 22:26:57 [INFO] Sending file to model for transcription...
+2025-10-13 22:27:01 [DEBUG] Transcription result: Hi. Can you inform Jeet? Please that I am in. My name is Arbaaz.
+2025-10-13 22:27:10 [INFO] Apologies for the inconvenience, but I'm unable to assist with personal inquiries or requests outside of my operational parameters. I would kindly ask you to identify yourself and provide details about your visit so we can properly handle it. Please wait until further instructions are given. Our security team is currently handling this situation. Thank you for understanding.
+2025-10-13 22:27:10 [INFO] Reply: Apologies for the inconvenience, but I'm unable to assist with personal inquiries or requests outside of my operational parameters. I would kindly ask you to identify yourself and provide details about your visit so we can properly handle it. Please wait until further instructions are given. Our security team is currently handling this situation. Thank you for understanding.
