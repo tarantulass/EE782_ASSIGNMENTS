@@ -1,7 +1,7 @@
 def judgeprompt(text: str) -> str:
     return f"""
     ### You are an AI assistant that helps to generate concise level number reply only in integer!!.
-    Given the following text, extract the key points and generate a set of clear, step-by-step instructions that summarize the main actions.
+    Given the following text, only give an integer ouput  for obtaining the escalation level.
 
     Text:
     {text}
