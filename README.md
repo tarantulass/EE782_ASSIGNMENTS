@@ -6,14 +6,14 @@
 5. Run the main.py file to start the application.
 
 ## Problems and solutions
-1. Face recognition using DeepFace was inconsistent and unreliable. Switched to face_recognition library for better accuracy.
-2. Pinecone integration for vector database was complex and time-consuming. Dropped due to time constraints.
+1. Face recognition using face_recognition was extremely problematic due to cmake and dlib dependecies conflict. Switched to deepface for better accuracy and simpler implmentation - further optimized by reducing the dimensions, using other models and .find function instead.
+2. Pinecone integration for vector database was complex and time-consuming initially, can be easily extended for images as the code is modular.
 3. LLM model selection was challenging due to the variety of models available. Chose granite3.1-moe:3b based on Openllm leaderboard.
 4. 
 
 ## References 
 
-1. Indently.io for face recognition programs
+1. Indently.io and sefik llkin serengil for face recognition programs
 2. Openllm leaderboard for LLM model selection
 3. Telegram bot API documentation for sending messages via bot
 4. DeepFace documentation for face recognition - dropped later due to inconsistent results.
