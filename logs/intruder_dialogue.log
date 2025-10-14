@@ -61,3 +61,13 @@ Remember, this is a security-sensitive area. If you're not authorized to be here
 2025-10-13 22:44:37 [INFO] Reply: "Apologies for the interruption. I'm unable to assist without identification at this time. Could you please provide your name and purpose? Thank you."
 2025-10-13 23:05:55 [INFO] Successfully uploaded file: input.wav
 2025-10-13 23:05:55 [INFO] Sending file to model for transcription...
+2025-10-14 07:54:24 [INFO] Successfully uploaded file: input.wav
+2025-10-14 07:54:24 [INFO] Sending file to model for transcription...
+2025-10-14 07:54:27 [DEBUG] Transcription result: [no speech]
+2025-10-14 07:54:27 [ERROR] Error in ollama API: model requires more system memory (2.3 GiB) than is available (831.4 MiB) (status code: 500)
+2025-10-14 07:56:23 [INFO] Successfully uploaded file: input.wav
+2025-10-14 07:56:23 [INFO] Sending file to model for transcription...
+2025-10-14 07:56:26 [DEBUG] Transcription result: [Car passing]
+2025-10-14 07:56:26 [ERROR] Error in ollama API: model requires more system memory (2.3 GiB) than is available (787.4 MiB) (status code: 500)
+2025-10-14 08:30:46 [INFO] Successfully uploaded file: input.wav
+2025-10-14 08:30:46 [INFO] Sending file to model for transcription...

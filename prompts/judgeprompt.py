@@ -11,4 +11,5 @@ def judgeprompt(text: str) -> str:
     level is 2, when user is repeatedly asking the same question and being rude.
     level is 3, when user is misbehaving and threatening to tamper the system .
 
+    Do not provide any explanations or additional text, only respond with the integer level.
     """

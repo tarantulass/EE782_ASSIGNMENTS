@@ -20,7 +20,7 @@ if __name__ == "__main__":
     with open(config.TEXT_FILE, 'w') as f:
         f.write("")
 
-    knownface = False
+    # knownface = False
     level = 1
     while not knownface:
         logger.warning("Intruder detected!")
@@ -31,5 +31,5 @@ if __name__ == "__main__":
         if level == 3:
             break   
 
-    if config.TEXT_FILE:    
+    if os.path.getsize(config.TEXT_FILE) > 0:
         summarygenerator()
