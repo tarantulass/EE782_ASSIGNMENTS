@@ -28,7 +28,7 @@ def intruder_dialogue(level:int, text:str=None):
         sys.exit(1)
 
     recordAudio()
-    audio_file = client.files.upload(path=config.AUDIO_DIR)
+    audio_file = client.files.upload(file=config.AUDIO_DIR)
     logger.info(f"Successfully uploaded file: {audio_file.display_name}")
 
 
