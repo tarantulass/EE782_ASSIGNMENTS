@@ -13,14 +13,14 @@ from facerecognition.facerecognizer import capture_and_recognize
 if __name__ == "__main__":
     logger = get_logger("main")
 
-    recordAudio()
-    status = activation()
-    notify_cam(status)
-    knownface = capture_and_recognize(config.DB_DIR, threshold=0.4)
+    # recordAudio()
+    # status = activation()
+    # notify_cam(status)
+    # knownface = capture_and_recognize(config.DB_DIR, threshold=0.4)
     with open(config.TEXT_FILE, 'w') as f:
         f.write("")
 
-    # knownface = False
+    knownface = False
     level = 1
     while not knownface:
         logger.warning("Intruder detected!")

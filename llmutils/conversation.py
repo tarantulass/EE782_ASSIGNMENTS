@@ -13,7 +13,7 @@ from prompts.buildintruderprompt import buildintruderprompt
 
 from dotenv import load_dotenv
 load_dotenv()
-import google.generativeai as genai
+from google import genai
 
 
 def intruder_dialogue(level:int, text:str=None):
@@ -22,21 +22,21 @@ def intruder_dialogue(level:int, text:str=None):
 
 
     try:
-        genai.configure(api_key=os.getenv("GOOGLE_GEMINI_API_KEY"))
+        client = genai.Client(api_key=os.getenv("GOOGLE_GEMINI_API_KEY"))
     except Exception as e:
         logger.error(f"Error configuring Gemini API: {e}")
         sys.exit(1)
 
     recordAudio()
-    audio_file = genai.upload_file(path=config.AUDIO_DIR)
+    audio_file = client.files.upload(path=config.AUDIO_DIR)
     logger.info(f"Successfully uploaded file: {audio_file.display_name}")
 
-    model = genai.GenerativeModel(model_name="gemini-2.5-flash")
 
     # 3. Sending a prompt along with the uploaded audio file to the model.
     logger.info("Sending file to model for transcription...")
-    response = model.generate_content([
-        "Transcribe this audio file.",  
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents = ["Transcribe this audio file.",  
         audio_file
     ])
 
